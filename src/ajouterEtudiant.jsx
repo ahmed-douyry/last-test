@@ -64,7 +64,7 @@ export const AjouterEtudiant = () => {
             <label className="form-check-label">Masculin</label>
           </div>
           <div className="form-check">
-            <input type="radio" className="form-check-input" name="sexe" value="Feminin" onClick={() => setSexe('Feminin')} />
+            <input type="radio" className="form-check-input" name="sexe" value="feminin" onClick={() => setSexe('feminin')} />
             <label className="form-check-label">Féminin</label>
           </div>
         </div>
